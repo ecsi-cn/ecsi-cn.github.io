@@ -1,0 +1,174 @@
+---
+layout: post
+title:  "Header"
+date:   2020-04-28 14:22:41 +0800
+categories: Header
+---
+
+### Desktop and Tablet Header
+<div class="panel panel-success">
+    <div class="panel-heading">Example</div>
+    <div class="panel-body">
+        <header class="header-section header-desktop">
+            <div class="header-infobar">
+                <div class="header-infobar-left">
+                    <a href="">
+                        <img src="https://heartlanddev.ecsi.net/images/re-brand/ecsi-logo-white-medium.png" alt="ECSI Logo" title="ECSI Logo">
+                    </a>
+                </div>
+                <div class="header-infobar-right">
+                    <ul class="header-account">
+                        <li>
+                            <a href="" title="Sign in" class="link">Sign In</a>
+                        </li>
+                        <li>
+                            <a href="" title="Register" class="link">Register</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="header-nav">
+                <div class="header-nav-item">
+                    <a href="" title="Home">Home</a>
+                </div>
+                <div class="header-nav-item">
+                    <a href="" title="Download Forms">Download Forms</a>
+                </div>
+                <div class="header-nav-item">
+                    <a href="" title="Help Center">Help Center</a>
+                </div>
+                <div class="header-nav-item">
+                    <a href="" title="Contact Us">Contact Us</a>
+                </div>
+            </div>
+        </header>
+    </div>
+</div>
+
+```html
+<header class="header-section header-desktop">
+    <div class="header-infobar">
+        <div class="header-infobar-left">
+            <a href="">
+                <img src="https://heartlanddev.ecsi.net/images/re-brand/ecsi-logo-white-medium.png" alt="ECSI Logo" title="ECSI Logo">
+            </a>
+        </div>
+        <div class="header-infobar-right">
+            <ul class="header-account">
+                <li>
+                    <a href="" title="Sign in" class="link">Sign In</a>
+                </li>
+                <li>
+                    <a href="" title="Register" class="link">Register</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    
+    <div class="header-nav">
+        <div class="header-nav-item">
+            <a href="" title="Home">Home</a>
+        </div>
+        <div class="header-nav-item">
+            <a href="" title="Download Forms">Download Forms</a>
+        </div>
+        <div class="header-nav-item">
+            <a href="" title="Help Center">Help Center</a>
+        </div>
+        <div class="header-nav-item">
+            <a href="" title="Contact Us">Contact Us</a>
+        </div>
+    </div>
+</header>
+```
+
+### Mobile Header
+<div class="panel panel-success">
+    <div class="panel-heading">Example</div>
+    <div class="panel-body" style="width: 480px;">
+        <header class="header-section header-mobile" style="display: block;">
+            <div class="header-infobar header-infobar-mobile">
+                <div class="header-infobar-left header-infobar-mobile-left">
+                    <a href="">
+                        <img src="https://heartlanddev.ecsi.net/images/re-brand/ecsi-logo-white-medium.png" alt="ECSI Logo" title="ECSI Logo">
+                    </a>
+                </div>
+                <div class="header-infobar-right">
+                    <button type="button" data-toggle="collapse" data-target="#nav-mobile-collapse" aria-expanded="false" class="header-nav-collapse-button">
+                        <i class="fa fa-bars fa-2x"></i>
+                        <i class="fa fa-close fa-2x"></i>
+                    </button>
+                </div>
+            </div>
+
+            <div id="nav-mobile-collapse" class="collapse">
+                <ul class="header-account header-account-mobile">
+                    <li>
+                        <a href="" title="Sign in" class="link">Sign In</a>
+                    </li>
+                    <li>
+                        <a href="" title="Register" class="link">Register</a>
+                    </li>
+                </ul>
+                <div class="header-nav">
+                    <div class="header-nav-item header-nav-item-mobile">
+                        <a href="" title="Home">Home</a>
+                    </div>
+                    <div class="header-nav-item header-nav-item-mobile">
+                        <a href="" title="Download Forms">Download Forms</a>
+                    </div>
+                    <div class="header-nav-item header-nav-item-mobile">
+                        <a href="" title="Help Center">Help Center</a>
+                    </div>
+                    <div class="header-nav-item header-nav-item-mobile">
+                        <a href="" title="Contact Us">Contact Us</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+    </div>
+</div>
+
+```html
+<header class="header-section header-mobile" style="display: block;">
+    <div class="header-infobar header-infobar-mobile">
+        <div class="header-infobar-left header-infobar-mobile-left">
+            <a href="">
+                <img src="https://heartlanddev.ecsi.net/images/re-brand/ecsi-logo-white-medium.png" alt="ECSI Logo" title="ECSI Logo">
+            </a>
+        </div>
+        <div class="header-infobar-right">
+            <button type="button" data-toggle="collapse" data-target="#nav-mobile-collapse" aria-expanded="false" class="header-nav-collapse-button">
+                <i class="fa fa-bars fa-2x"></i>
+                <i class="fa fa-close fa-2x"></i>
+            </button>
+        </div>
+    </div>
+
+    <div id="nav-mobile-collapse" class="collapse">
+        <ul class="header-account header-account-mobile">
+            <li>
+                <a href="" title="Sign in" class="link">Sign In</a>
+            </li>
+            <li>
+                <a href="" title="Register" class="link">Register</a>
+            </li>
+        </ul>
+        <div class="header-nav">
+            <div class="header-nav-item header-nav-item-mobile">
+                <a href="" title="Home">Home</a>
+            </div>
+            <div class="header-nav-item header-nav-item-mobile">
+                <a href="" title="Download Forms">Download Forms</a>
+            </div>
+            <div class="header-nav-item header-nav-item-mobile">
+                <a href="" title="Help Center">Help Center</a>
+            </div>
+            <div class="header-nav-item header-nav-item-mobile">
+                <a href="" title="Contact Us">Contact Us</a>
+            </div>
+        </div>
+    </div>
+</header>
+```
