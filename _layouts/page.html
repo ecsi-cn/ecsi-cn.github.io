@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>ECSI Style Guide</title>
+
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="http://localhost:8080/style-gp.css">
+</head>
+<body>
+<div class="wrap">
+    <div class="post-nav">
+        {% for post in site.posts %}
+        <a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a>
+        {% endfor %}
+    </div>
+    <div class="post-content">
+        {{content}}
+    </div>
+</div>
+
+</body>
+</html>

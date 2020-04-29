@@ -1,0 +1,53 @@
+---
+layout: post
+title:  "Toggle"
+date:   2020-04-28 14:22:41 +0800
+categories: Toggle
+---
+
+<div class="panel panel-success">
+    <div class="panel-heading">Example</div>
+    <div class="panel-body">
+        <label class="toggle-switch">
+            <input type="checkbox" checked>
+            <span class="slider">
+                <span class="on">YES</span>
+                <span class="off">NO</span>
+            </span>
+        </label>
+    </div>
+</div>
+
+```html
+<label class="toggle-switch">
+    <input type="checkbox" checked>
+    <span class="slider">
+        <span class="on">YES</span>
+        <span class="off">NO</span>
+    </span>
+</label>
+```
+
+### Disabled state
+<div class="panel panel-success">
+    <div class="panel-heading">Example</div>
+    <div class="panel-body">
+        <label class="toggle-switch">
+            <input type="checkbox" checked disabled>
+            <span class="slider">
+                <span class="on">YES</span>
+                <span class="off">NO</span>
+            </span>
+        </label>
+    </div>
+</div>
+
+```html
+<label class="toggle-switch">
+    <input type="checkbox" checked disabled>
+    <span class="slider">
+        <span class="on">YES</span>
+        <span class="off">NO</span>
+    </span>
+</label>
+```

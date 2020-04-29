@@ -1,0 +1,78 @@
+---
+layout: post
+title:  "Button"
+date:   2020-04-28 14:22:41 +0800
+categories: Button
+---
+
+There are two type of buttons, one is **Primary Button**, another is **Secondary Button**.
+
+### Primary Button
+<div class="panel panel-success">
+    <div class="panel-heading">Example</div>
+    <div class="panel-body">
+        <button class="button button-primary">Primary button</button>
+        <a class="button button-primary" href="#" role='button'>Link button</a>
+    </div>
+</div>
+
+```html
+<button class="button button-primary">Primary button</button>
+<a class="button button-primary" href="#" role='button'>Link button</a>
+```
+
+### Secondary Button
+<div class="panel panel-success">
+    <div class="panel-heading">Example</div>
+    <div class="panel-body">
+        <button class="button button-secondary">Secondary button</button>
+        <a class="button button-secondary" href="#" role='button'>Link button</a>
+    </div>
+</div>
+
+```html
+<button class="button button-secondary">Secondary button</button>
+<a class="button button-secondary" href="#" role='button'>Link button</a>
+```
+
+### Sizing
+There’re two sizes for buttons: the default `.button`, the small button with `.button-small`.
+<div class="panel panel-success">
+    <div class="panel-heading">Example</div>
+    <div class="panel-body">
+        <button class="button button-primary button-small">Small button</button>
+        <a class="button button-secondary button-small" href="#" role='button'>Link button</a>
+    </div>
+</div>
+
+```html
+<button class="button button-primary button-small">Small button</button>
+<a class="button button-secondary button-small" href="#" role='button'>Link button</a>
+```
+
+### Disabled state
+<div class="panel panel-success">
+    <div class="panel-heading">Example</div>
+    <div class="panel-body">
+        <button class="button button-primary" disabled>Disabled button</button>
+        <a class="button button-primary disabled" href="#" role='button'>Disabled button</a>
+    </div>
+</div>
+
+```html
+<button class="button button-primary" disabled>Disabled button</button>
+<a class="button button-primary disabled" href="#" role='button'>Disabled button</a>
+```
+
+<div class="panel panel-success">
+    <div class="panel-heading">Example</div>
+    <div class="panel-body">
+        <button class="button button-secondary" disabled>Disabled button</button>
+        <a class="button button-secondary disabled" href="#" role='button'>Disabled button</a>
+    </div>
+</div>
+
+```html
+<button class="button button-secondary" disabled>Disabled button</button>
+<a class="button button-secondary disabled" href="#" role='button'>Disabled button</a>
+```
