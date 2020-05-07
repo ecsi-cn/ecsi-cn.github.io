@@ -8,7 +8,7 @@ categories: Tab
 <div class="panel panel-success">
     <div class="panel-heading">Tab</div>
     <div class="panel-body">
-        <div class="tabs">
+        <div class="tabs tabs-container">
             <!-- Nav tabs -->
             <ul class="nav nav-tabs nav-tabs-ul">
                 <li role="presentation" class="active">
