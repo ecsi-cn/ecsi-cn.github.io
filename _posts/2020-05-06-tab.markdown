@@ -1,0 +1,65 @@
+---
+layout: post
+title: "Tab"
+categories: Tab
+---
+
+### Tab
+<div class="panel panel-success">
+    <div class="panel-heading">Tab</div>
+    <div class="panel-body">
+        <div class="tabs">
+            <!-- Nav tabs -->
+            <ul class="nav nav-tabs nav-tabs-ul">
+                <li role="presentation" class="active">
+                    <a href="#Started" role="tab" data-toggle="tab">Getting Started</a>
+                </li>
+                <li role="presentation">
+                    <a href="#Settings" role="tab" data-toggle="tab">Account & Settings</a>
+                </li>
+                <li role="presentation">
+                    <a href="#FAQs" role="tab" data-toggle="tab">FAQs</a>
+                </li>
+                <li role="presentation">
+                    <a href="#Contact" role="tab" data-toggle="tab">Contact Us</a>
+                </li>
+            </ul>
+
+            <!-- Tab panes -->
+            <div class="tab-content">
+                <div role="tabpanel" class="tab-pane active" id="Started">Getting Started</div>
+                <div role="tabpanel" class="tab-pane" id="Settings">Account & Settings</div>
+                <div role="tabpanel" class="tab-pane" id="FAQs">FAQs</div>
+                <div role="tabpanel" class="tab-pane" id="Contact">Contact Us</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+```html
+<div class="tabs">
+    <!-- Nav tabs -->
+    <ul class="nav nav-tabs nav-tabs-ul">
+        <li role="presentation" class="active">
+            <a href="#Started" role="tab" data-toggle="tab">Getting Started</a>
+        </li>
+        <li role="presentation">
+            <a href="#Settings" role="tab" data-toggle="tab">Account & Settings</a>
+        </li>
+        <li role="presentation">
+            <a href="#FAQs" role="tab" data-toggle="tab">FAQs</a>
+        </li>
+        <li role="presentation">
+            <a href="#Contact" role="tab" data-toggle="tab">Contact Us</a>
+        </li>
+    </ul>
+
+    <!-- Tab panes -->
+    <div class="tab-content">
+        <div role="tabpanel" class="tab-pane active" id="Started">Getting Started</div>
+        <div role="tabpanel" class="tab-pane" id="Settings">Account & Settings</div>
+        <div role="tabpanel" class="tab-pane" id="FAQs">FAQs</div>
+        <div role="tabpanel" class="tab-pane" id="Contact">Contact Us</div>
+    </div>
+</div>
+```
