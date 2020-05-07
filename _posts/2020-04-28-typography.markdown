@@ -6,7 +6,9 @@ categories: Typography
 ---
 
 ### Roboto
-The primary font family to be used is **Roboto**. The font should degrade to **Sans-serif** in CSS if the user’s device does not support this custom web font. So far we are using 2 font weights out of the family: **Regular**, **SemiBold**.
+The primary font family to be used is **Roboto**. The font should degrade to **Sans-serif** in CSS if the user’s device does not support this custom web font. 
+
+So far we are using 2 font weights out of the family: **Regular**, **SemiBold**.
 
 <div class="panel panel-success">
     <div class="panel-heading">Example</div>
@@ -52,32 +54,14 @@ The primary font family to be used is **Roboto**. The font should degrade to **S
 </p>
 ```
 
-### Headings
-<div class="panel panel-success">
-    <div class="panel-heading">Example</div>
-    <div class="panel-body">
-        <h1 class="h1">Main Title (Desktop and Tablet: 32px, Mobile: 24px)</h1>
-        <h2 class="h2">Page title (Desktop and Tablet: 24px, Mobile: 20px)</h2>
-        <h3 class="h3">Sub title (Desktop and Tablet: 18px, Mobile: 16px)</h3>
-        <h4 class="h4">Normal title (Desktop and Tablet: 16px, Mobile: 14px)</h4>
-    </div>
-</div>
-
-```html
-<h1 class="h1">Main Title</h1>
-<h2 class="h2">Page title</h2>
-<h3 class="h3">Sub title</h3>
-<h4 class="h4">Normal title</h4>
-```
-
 ### Body text
 Font size (Desktop and Tablet: 16px, Mobile: 14px)
 <div class="panel panel-success">
     <div class="panel-heading">Example</div>
     <div class="panel-body">
-        <p>Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies vehicula.</p>
-        <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec ullamcorper nulla non metus auctor fringilla. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Donec ullamcorper nulla non metus auctor fringilla.</p>
-        <p>Maecenas sed diam eget risus varius blandit sit amet non magna. Donec id elit non mi porta gravida at eget metus. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
+        <p style="margin: 0">Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies vehicula.</p>
+        <p style="margin: 0">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec ullamcorper nulla non metus auctor fringilla. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Donec ullamcorper nulla non metus auctor fringilla.</p>
+        <p style="margin: 0">Maecenas sed diam eget risus varius blandit sit amet non magna. Donec id elit non mi porta gravida at eget metus. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
     </div>
 </div>
 
@@ -98,15 +82,33 @@ Maecenas sed diam eget risus varius blandit sit amet non magna. Donec id elit no
     <div class="panel-heading">Example</div>
     <div class="panel-body">
         <div>
-            <a class="link" href="#">Text Link</a>
+            <a class="blue-link" href="#">Blue Link</a>
         </div>
-        <div>
-            <a class="link disabled" href="#">Disabled Text Link</a>
+        <div style="background-color: #00467E;">
+            <a class="white-link" href="#">White Link when background is dark</a>
         </div>
     </div>
 </div>
 
 ```html
-<a class="link" href="#">Text Link</a>
-<a class="link disabled" href="#">Disabled Text Link</a>
+<a class="blue-link" href="#">Blue Link</a>
+<a class="white-link" href="#">White Link when background is dark</a>
+```
+
+### Disabled state
+<div class="panel panel-success">
+    <div class="panel-heading">Example</div>
+    <div class="panel-body">
+        <div>
+            <a class="blue-link disabled" href="#">Disabled Blue Link</a>
+        </div>
+        <div style="background-color: #00467E;">
+            <a class="white-link disabled" href="#">Disabled White Link</a>
+        </div>
+    </div>
+</div>
+
+```html
+<a class="blue-link disabled" href="#">Disabled Blue Link</a>
+<a class="white-link disabled" href="#">Disabled White Link</a>
 ```

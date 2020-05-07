@@ -12,11 +12,6 @@ a {
 	text-decoration: none;
 }
 
-a:visited {
-	color: #fff;
-	text-decoration: none;
-}
-
 .wrap{
 	min-height: 100%;
 }
