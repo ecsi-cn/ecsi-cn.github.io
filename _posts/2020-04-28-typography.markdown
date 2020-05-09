@@ -1,14 +1,13 @@
 ---
 layout: post
 title:  "Typography"
-date:   2020-04-28 14:22:41 +0800
-categories: Typography
+categories: Basic
 ---
 
 ### Roboto
 The primary font family to be used is **Roboto**. The font should degrade to **Sans-serif** in CSS if the user’s device does not support this custom web font. 
 
-So far we are using 2 font weights out of the family: **Regular**, **SemiBold**.
+So far we are using 3 font weights out of the family: **Regular**, **SemiBold**, **Bold**.
 
 <div class="panel panel-success">
     <div class="panel-heading">Example</div>
@@ -54,8 +53,30 @@ So far we are using 2 font weights out of the family: **Regular**, **SemiBold**.
 </p>
 ```
 
+<div class="panel panel-success">
+    <div class="panel-heading">Example</div>
+    <div class="panel-body">
+        <p class="font-bold">Bold</p>
+        <p style="font-size: 140px;" class="font-bold">Aa</p>
+        <p class="font-bold">
+            ABCDEFGHIJKLMNOPQRSTUVWXYZ<br>
+            abcdefghijklmnopqrstuvwxyz<br>
+            (.,:;?!$@*) 0123456789
+        </p>
+    </div>
+</div>
+
+```html
+<p class="font-bold">Aa</p>
+<p class="font-bold">
+    ABCDEFGHIJKLMNOPQRSTUVWXYZ<br>
+    abcdefghijklmnopqrstuvwxyz<br>
+    (.,:;?!$@*) 0123456789
+</p>
+```
+
 ### Body text
-Font size (Desktop and Tablet: 16px, Mobile: 14px)
+Font size: 1em
 <div class="panel panel-success">
     <div class="panel-heading">Example</div>
     <div class="panel-body">
@@ -75,40 +96,4 @@ Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus
 <p>
 Maecenas sed diam eget risus varius blandit sit amet non magna. Donec id elit non mi porta gravida at eget metus. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
 </p>
-```
-
-### Links
-<div class="panel panel-success">
-    <div class="panel-heading">Example</div>
-    <div class="panel-body">
-        <div>
-            <a class="blue-link" href="#">Blue Link</a>
-        </div>
-        <div style="background-color: #00467E;">
-            <a class="white-link" href="#">White Link when background is dark</a>
-        </div>
-    </div>
-</div>
-
-```html
-<a class="blue-link" href="#">Blue Link</a>
-<a class="white-link" href="#">White Link when background is dark</a>
-```
-
-### Disabled state
-<div class="panel panel-success">
-    <div class="panel-heading">Example</div>
-    <div class="panel-body">
-        <div>
-            <a class="blue-link disabled" href="#">Disabled Blue Link</a>
-        </div>
-        <div style="background-color: #00467E;">
-            <a class="white-link disabled" href="#">Disabled White Link</a>
-        </div>
-    </div>
-</div>
-
-```html
-<a class="blue-link disabled" href="#">Disabled Blue Link</a>
-<a class="white-link disabled" href="#">Disabled White Link</a>
 ```

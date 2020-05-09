@@ -1,8 +1,7 @@
 ---
 layout: post
 title:  "Button"
-date:   2020-04-28 14:22:41 +0800
-categories: Button
+categories: Basic
 ---
 
 There are two type of buttons, one is **Primary Button**, another is **Secondary Button**.

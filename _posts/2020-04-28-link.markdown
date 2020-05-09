@@ -1,0 +1,42 @@
+---
+layout: post
+title:  "Link"
+categories: Basic
+---
+
+Text hyperlink
+### Basic
+<div class="panel panel-success">
+    <div class="panel-heading">Example</div>
+    <div class="panel-body">
+        <div>
+            <a class="blue-link" href="#">Blue Link</a>
+        </div>
+        <div style="background-color: #00467E;">
+            <a class="white-link" href="#">White Link when background is dark</a>
+        </div>
+    </div>
+</div>
+
+```html
+<a class="blue-link" href="#">Blue Link</a>
+<a class="white-link" href="#">White Link when background is dark</a>
+```
+
+### Disabled state
+<div class="panel panel-success">
+    <div class="panel-heading">Example</div>
+    <div class="panel-body">
+        <div>
+            <a class="blue-link disabled" href="#">Disabled Blue Link</a>
+        </div>
+        <div style="background-color: #00467E;">
+            <a class="white-link disabled" href="#">Disabled White Link</a>
+        </div>
+    </div>
+</div>
+
+```html
+<a class="blue-link disabled" href="#">Disabled Blue Link</a>
+<a class="white-link disabled" href="#">Disabled White Link</a>
+```

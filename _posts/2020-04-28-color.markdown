@@ -1,0 +1,23 @@
+---
+layout: post
+title:  "Color"
+categories: Basic
+---
+
+### Main Color
+The main color of ECSI is GP blue.
+<div class="panel panel-success">
+    <div class="panel-heading">Example</div>
+    <div class="panel-body">
+        <p class="demo-color-box">Brand color <br> #00467E</p>
+
+    </div>
+</div>
+
+```html
+<p class="brand-color">#00467E</p>
+```
+
+
+### Secondary Color
+Besides the main color, you need to use different scene colors in different scenarios (for example, dangerous color indicates dangerous operation)

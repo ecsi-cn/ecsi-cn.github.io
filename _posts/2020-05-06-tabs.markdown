@@ -1,12 +1,13 @@
 ---
 layout: post
-title: "Tab"
-categories: Tab
+title: "Tabs"
+categories: Navigation
 ---
 
-### Tab
+Divide data collections which are related yet belong to different types.
+### Basic
 <div class="panel panel-success">
-    <div class="panel-heading">Tab</div>
+    <div class="panel-heading">Example</div>
     <div class="panel-body">
         <div class="tabs tabs-container">
             <!-- Nav tabs -->

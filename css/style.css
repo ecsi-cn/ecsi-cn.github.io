@@ -7,11 +7,6 @@ html, body{
 	box-sizing: border-box;
 }
 
-a {
-	color: #fff;
-	text-decoration: none;
-}
-
 .wrap{
 	min-height: 100%;
 }
@@ -23,10 +18,16 @@ a {
 	padding: 20px 0;
 	height: 100%;
 }
+.post-nav .category {
+    font-size: 0.8em;
+    color: #fff;
+    padding-left: 15px;
+}
 
 .post-nav a {
 	display: block;
-	padding: 8px 15px;
+    padding: 8px 30px;
+    color: #fff;
 }
 
 .post-nav a:hover{
@@ -51,7 +52,13 @@ a {
 .item {
 	margin-bottom: 30px;
 }
-
+.demo-color-box {
+    background: #00467E;
+    width: 300px;
+    color: #fff;
+    border-radius: 4px;
+    padding: 10px 20px;
+}
 
 
 
