@@ -1,54 +1,54 @@
 ---
 layout: post
-title:  "Toggle"
+title:  "Toggle Switch"
 categories: Form
 ---
 
-Toggle is used for switching between two opposing states.
+Used for switching between two opposing states.
 ### Basic
 <div class="panel panel-success">
     <div class="panel-heading">Example</div>
     <div class="panel-body">
-        <label class="toggle-switch">
-            <input type="checkbox" checked>
-            <span class="slider">
-                <span class="on">YES</span>
-                <span class="off">NO</span>
-            </span>
-        </label>
+        <div class="onoffswitch">
+            <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="onoffswitch" checked/>
+            <label class="onoffswitch-label" for="onoffswitch">
+                <span class="onoffswitch-inner"></span>
+                <span class="onoffswitch-switch"></span>
+            </label>
+        </div>
     </div>
 </div>
 
 ```html
-<label class="toggle-switch">
-    <input type="checkbox" checked>
-    <span class="slider">
-        <span class="on">YES</span>
-        <span class="off">NO</span>
-    </span>
-</label>
+<div class="onoffswitch">
+    <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="onoffswitch" checked/>
+    <label class="onoffswitch-label" for="onoffswitch">
+        <span class="onoffswitch-inner"></span>
+        <span class="onoffswitch-switch"></span>
+    </label>
+</div>
 ```
 
 ### Disabled state
 <div class="panel panel-success">
     <div class="panel-heading">Example</div>
     <div class="panel-body">
-        <label class="toggle-switch">
-            <input type="checkbox" checked disabled>
-            <span class="slider">
-                <span class="on">YES</span>
-                <span class="off">NO</span>
-            </span>
-        </label>
+        <div class="onoffswitch">
+            <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="onoffswitchdisabled" checked disabled/>
+            <label class="onoffswitch-label" for="onoffswitchdisabled">
+                <span class="onoffswitch-inner"></span>
+                <span class="onoffswitch-switch"></span>
+            </label>
+        </div>
     </div>
 </div>
 
 ```html
-<label class="toggle-switch">
-    <input type="checkbox" checked disabled>
-    <span class="slider">
-        <span class="on">YES</span>
-        <span class="off">NO</span>
-    </span>
-</label>
+<div class="onoffswitch">
+    <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="onoffswitchdisabled" checked disabled/>
+    <label class="onoffswitch-label" for="onoffswitchdisabled">
+        <span class="onoffswitch-inner"></span>
+        <span class="onoffswitch-switch"></span>
+    </label>
+</div>
 ```

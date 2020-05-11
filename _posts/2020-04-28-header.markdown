@@ -31,6 +31,17 @@ categories: Navigation
                 <div class="header-nav-item">
                     <a href="" class="active">Home</a>
                 </div>
+                <div class="header-nav-item-dropdown">
+                    <a title="Schools">Schools <i class="fa fa-sort-desc" aria-hidden="true"></i></a>
+                    <ul>
+                        <li>
+                            <a title="Chatham Test University">Chatham Test University</a>
+                        </li>
+                        <li>
+                            <a title="Refund University">Refund University</a>
+                        </li>
+                    </ul>
+                </div>
                 <div class="header-nav-item">
                     <a href="">Download Forms</a>
                 </div>
@@ -68,6 +79,17 @@ categories: Navigation
     <div class="header-nav">
         <div class="header-nav-item">
             <a href="" class="active">Home</a>
+        </div>
+        <div class="header-nav-item-dropdown">
+            <a title="Schools">Schools <i class="fa fa-sort-desc" aria-hidden="true"></i></a>
+            <ul>
+                <li>
+                    <a title="Chatham Test University">Chatham Test University</a>
+                </li>
+                <li>
+                    <a title="Refund University">Refund University</a>
+                </li>
+            </ul>
         </div>
         <div class="header-nav-item">
             <a href="">Download Forms</a>
