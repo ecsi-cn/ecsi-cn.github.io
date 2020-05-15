@@ -9,7 +9,7 @@ Displays the location of the current page, making it easier to browser back.
 <div class="panel panel-success">
     <div class="panel-heading">Example</div>
     <div class="panel-body">
-        <ol class="breadcrumb">
+        <ol class="breadcrumb" style="margin-bottom: 0;">
             <li><a href="#">Home</a></li>
             <li><a href="#">Library</a></li>
             <li class="active">Data</li>

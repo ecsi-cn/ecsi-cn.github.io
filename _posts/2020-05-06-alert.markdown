@@ -1,0 +1,54 @@
+---
+layout: post
+title: "Alert"
+categories: Notice
+---
+
+Displays important alert messages.
+### Success
+<div class="panel panel-success">
+    <div class="panel-heading">Example</div>
+    <div class="panel-body">
+        <div class="alert-message alert-message-success">
+            Success! Duis mollis, est non commodo luctus, nisi erat porttitor ligula.
+        </div>
+    </div>
+</div>
+
+```html
+<div class="alert-message alert-message-success">
+    Success! Duis mollis, est non commodo luctus, nisi erat porttitor ligula.
+</div>
+```
+
+### Warning
+<div class="panel panel-success">
+    <div class="panel-heading">Example</div>
+    <div class="panel-body">
+        <div class="alert-message alert-message-warning">
+            Warning! Duis mollis, est non commodo luctus, nisi erat porttitor ligula.
+        </div>
+    </div>
+</div>
+
+```html
+<div class="alert-message alert-message-warning">
+    Warning! Duis mollis, est non commodo luctus, nisi erat porttitor ligula.
+</div>
+```
+
+### Error
+<div class="panel panel-success">
+    <div class="panel-heading">Example</div>
+    <div class="panel-body">
+        <div class="alert-message alert-message-error">
+            Error! Duis mollis, est non commodo luctus, nisi erat porttitor ligula.
+        </div>
+    </div>
+</div>
+
+```html
+<div class="alert-message alert-message-error">
+    Error! Duis mollis, est non commodo luctus, nisi erat porttitor ligula.
+</div>
+```
