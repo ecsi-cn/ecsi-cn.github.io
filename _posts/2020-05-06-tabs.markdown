@@ -38,7 +38,7 @@ Divide data collections which are related yet belong to different types.
 </div>
 
 ```html
-<div class="tabs">
+<div class="tabs tabs-container">
     <!-- Nav tabs -->
     <ul class="nav nav-tabs nav-tabs-ul">
         <li role="presentation" class="active">
