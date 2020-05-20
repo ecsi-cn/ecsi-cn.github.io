@@ -13,16 +13,16 @@ Divide data collections which are related yet belong to different types.
             <!-- Nav tabs -->
             <ul class="nav nav-tabs nav-tabs-ul">
                 <li role="presentation" class="active">
-                    <a href="#Started" role="tab" data-toggle="tab">Getting Started</a>
+                    <a data-target="#Started" role="tab" data-toggle="tab">Getting Started</a>
                 </li>
                 <li role="presentation">
-                    <a href="#Settings" role="tab" data-toggle="tab">Account & Settings</a>
+                    <a data-target="#Settings" role="tab" data-toggle="tab">Account & Settings</a>
                 </li>
                 <li role="presentation">
-                    <a href="#FAQs" role="tab" data-toggle="tab">FAQs</a>
+                    <a data-target="#FAQs" role="tab" data-toggle="tab">FAQs</a>
                 </li>
                 <li role="presentation">
-                    <a href="#Contact" role="tab" data-toggle="tab">Contact Us</a>
+                    <a data-target="#Contact" role="tab" data-toggle="tab">Contact Us</a>
                 </li>
             </ul>
 
@@ -42,16 +42,16 @@ Divide data collections which are related yet belong to different types.
     <!-- Nav tabs -->
     <ul class="nav nav-tabs nav-tabs-ul">
         <li role="presentation" class="active">
-            <a href="#Started" role="tab" data-toggle="tab">Getting Started</a>
+            <a data-target="#Started" role="tab" data-toggle="tab">Getting Started</a>
         </li>
         <li role="presentation">
-            <a href="#Settings" role="tab" data-toggle="tab">Account & Settings</a>
+            <a data-target="#Settings" role="tab" data-toggle="tab">Account & Settings</a>
         </li>
         <li role="presentation">
-            <a href="#FAQs" role="tab" data-toggle="tab">FAQs</a>
+            <a data-target="#FAQs" role="tab" data-toggle="tab">FAQs</a>
         </li>
         <li role="presentation">
-            <a href="#Contact" role="tab" data-toggle="tab">Contact Us</a>
+            <a data-target="#Contact" role="tab" data-toggle="tab">Contact Us</a>
         </li>
     </ul>
 
