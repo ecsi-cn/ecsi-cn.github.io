@@ -4,15 +4,29 @@ title:  "ADA"
 categories: Basic
 ---
 
-### ADA Compliance
-For HTML tag anchor and button: add title attribute and remove alt attribute.
+***For ADA Compliance, all the title or alt value should be unique in page.***
+
+
+<div class="panel panel-success">
+    <div class="panel-heading">Example</div>
+    <div class="panel-body">
+       <p>Anchor/Button:</p>
+       <p>Add title attribute and remove alt attribute.</p>
+    </div>
+</div>
 
 ```html
 <a href="" title="Make a Payment">Make a Payment</a>
 <button title="Make a Payment">Make a Payment</button>
 ```
 
-For HTML tag image: add alt attribute.
+<div class="panel panel-success">
+    <div class="panel-heading">Example</div>
+    <div class="panel-body">
+       <p>Image:</p>
+       <p>Add alt attribute.</p>
+    </div>
+</div>
 
 ```html
 <img src="images/logo-heartland-desktop.png" alt="Heartland ECSI desktop Logo">
