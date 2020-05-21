@@ -1,0 +1,19 @@
+---
+layout: post
+title:  "ADA"
+categories: Basic
+---
+
+### ADA Compliance
+For HTML tag anchor and button: add title attribute and remove alt attribute.
+
+```html
+<a href="" title="Make a Payment">Make a Payment</a>
+<button title="Make a Payment">Make a Payment</button>
+```
+
+For HTML tag image: add alt attribute.
+
+```html
+<img src="images/logo-heartland-desktop.png" alt="Heartland ECSI desktop Logo">
+```
