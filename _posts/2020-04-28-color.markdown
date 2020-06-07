@@ -9,13 +9,13 @@ The main color of ECSI is GP blue.
 <div class="panel panel-success">
     <div class="panel-heading">Example</div>
     <div class="panel-body">
-        <p class="demo-color-box">Brand color <br> #00467E</p>
+        <p class="demo-color-box">Brand color <br> #004A80</p>
 
     </div>
 </div>
 
 ```html
-<p class="brand-color">#00467E</p>
+<p class="brand-color">#004A80</p>
 ```
 
 
