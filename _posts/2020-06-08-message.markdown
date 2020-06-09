@@ -1,0 +1,69 @@
+---
+layout: post
+title: "Message"
+categories: Notice
+---
+
+### System Message
+
+Displays system messages at window bottom.
+
+#### Show Content
+<div class="panel panel-success">
+    <div class="panel-heading">Example</div>
+    <div class="panel-body" style="position: relative; height: 80px;">
+        <div class="system-message-container" style="position: absolute; bottom: 0; left: 0; right: 0; top: 10px;">
+            <div class="content-wrapper">
+                <div class="layout">
+                    <div class="msg">
+                        Do you have loan interest or tuition payments to claim on your tax return? Click <a href="https://heartland.ecsi.net/index.main.html#/access/FAQtaxDocuments">here</a> to access your 1098-E or 1098-T tax statement.
+                    </div>
+                    <button class="button">
+                        Got it
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+```html
+<div class="system-message-container">
+    <div class="content-wrapper">
+        <div class="layout">
+            <div class="msg">
+                Do you have loan interest or tuition payments to claim on your tax return? Click <a href="https://heartland.ecsi.net/index.main.html#/access/FAQtaxDocuments">here</a> to access your 1098-E or 1098-T tax statement.
+            </div>
+            <button class="button">
+                Got it
+            </button>
+        </div>
+    </div>
+</div>
+```
+
+#### Hide Content
+<div class="panel panel-success">
+    <div class="panel-heading">Example</div>
+    <div class="panel-body" style="position: relative; height: 80px;">
+        <div class="system-message-container" style="position: absolute; bottom: 0; left: 0; right: 0; top: 10px;">
+            <div tabindex="0" class="icon" style="left: 10px; top: 10px;">
+                <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-info fa-stack-1x fa-inverse"></i>
+                </span>
+            </div>
+        </div>
+    </div>
+</div>
+
+```html
+<div class="system-message-container">
+    <div tabindex="0" class="icon">
+        <span class="fa-stack fa-lg">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <i class="fa fa-info fa-stack-1x fa-inverse"></i>
+        </span>
+    </div>
+</div>
+```
