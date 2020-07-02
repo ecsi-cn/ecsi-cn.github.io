@@ -11,27 +11,26 @@ Divide data collections which are related yet belong to different types.
     <div class="panel-body">
         <div class="tabs tabs-container">
             <!-- Nav tabs -->
-            <ul class="nav nav-tabs nav-tabs-ul">
-                <li role="presentation" class="active">
-                    <a data-target="#Started" role="tab" data-toggle="tab">Getting Started</a>
+            <ul class="nav nav-tabs nav-tabs-ul" role="tablist">
+                <li class="active">
+                    <a title="Tab A" data-target="#A" role="tab" data-toggle="tab" aria-expanded="true">Tab A</a>
                 </li>
-                <li role="presentation">
-                    <a data-target="#Settings" role="tab" data-toggle="tab">Account & Settings</a>
+                <li>
+                    <a title="Tab B" data-target="#B" role="tab" data-toggle="tab" aria-expanded="false">Tab B</a>
                 </li>
-                <li role="presentation">
-                    <a data-target="#FAQs" role="tab" data-toggle="tab">FAQs</a>
+                <li>
+                    <a title="Tab C" data-target="#C" role="tab" data-toggle="tab" aria-expanded="false">Tab C</a>
                 </li>
-                <li role="presentation">
-                    <a data-target="#Contact" role="tab" data-toggle="tab">Contact Us</a>
+                <li>
+                    <a title="Tab D" data-target="#D" role="tab" data-toggle="tab" aria-expanded="false">Tab D</a>
                 </li>
             </ul>
-
             <!-- Tab panes -->
             <div class="tab-content">
-                <div role="tabpanel" class="tab-pane active" id="Started">Getting Started</div>
-                <div role="tabpanel" class="tab-pane" id="Settings">Account & Settings</div>
-                <div role="tabpanel" class="tab-pane" id="FAQs">FAQs</div>
-                <div role="tabpanel" class="tab-pane" id="Contact">Contact Us</div>
+                <div role="tabpanel" class="tab-pane active" id="A">Content in Tab A</div>
+                <div role="tabpanel" class="tab-pane" id="B">Content in Tab B</div>
+                <div role="tabpanel" class="tab-pane" id="C">Content in Tab C</div>
+                <div role="tabpanel" class="tab-pane" id="D">Content in Tab D</div>
             </div>
         </div>
     </div>
@@ -40,27 +39,26 @@ Divide data collections which are related yet belong to different types.
 ```html
 <div class="tabs tabs-container">
     <!-- Nav tabs -->
-    <ul class="nav nav-tabs nav-tabs-ul">
-        <li role="presentation" class="active">
-            <a data-target="#Started" role="tab" data-toggle="tab">Getting Started</a>
+    <ul class="nav nav-tabs nav-tabs-ul" role="tablist">
+        <li class="active">
+            <a title="Tab A" data-target="#A" role="tab" data-toggle="tab" aria-expanded="true">Tab A</a>
         </li>
-        <li role="presentation">
-            <a data-target="#Settings" role="tab" data-toggle="tab">Account & Settings</a>
+        <li>
+            <a title="Tab B" data-target="#B" role="tab" data-toggle="tab" aria-expanded="false">Tab B</a>
         </li>
-        <li role="presentation">
-            <a data-target="#FAQs" role="tab" data-toggle="tab">FAQs</a>
+        <li>
+            <a title="Tab C" data-target="#C" role="tab" data-toggle="tab" aria-expanded="false">Tab C</a>
         </li>
-        <li role="presentation">
-            <a data-target="#Contact" role="tab" data-toggle="tab">Contact Us</a>
+        <li>
+            <a title="Tab D" data-target="#D" role="tab" data-toggle="tab" aria-expanded="false">Tab D</a>
         </li>
     </ul>
-
     <!-- Tab panes -->
     <div class="tab-content">
-        <div role="tabpanel" class="tab-pane active" id="Started">Getting Started</div>
-        <div role="tabpanel" class="tab-pane" id="Settings">Account & Settings</div>
-        <div role="tabpanel" class="tab-pane" id="FAQs">FAQs</div>
-        <div role="tabpanel" class="tab-pane" id="Contact">Contact Us</div>
+        <div role="tabpanel" class="tab-pane active" id="A">Content in Tab A</div>
+        <div role="tabpanel" class="tab-pane" id="B">Content in Tab B</div>
+        <div role="tabpanel" class="tab-pane" id="C">Content in Tab C</div>
+        <div role="tabpanel" class="tab-pane" id="D">Content in Tab D</div>
     </div>
 </div>
 ```
